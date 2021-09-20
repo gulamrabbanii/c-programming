@@ -2,12 +2,14 @@
 //Program to verify all square boxes of sudoku
 int squareCheck(int a[10][10]){
     int i, j, m, n, cnt = 0;
+    //partial population of count array as no number is occured
     int count[10] = {0};
     
     for(m = 0; m < 9; m +=3){
         for(n = 0; n < 9; n+=3){
             for(i = m; i < m+3; i++){
                 for(j = n; j < n+3; j++){
+                    //counting occurence of a number and storing in count array
                     count[a[i][j]]++;
                 }
             }
@@ -32,6 +34,7 @@ int colCheck(int a[10][10])
     
     for(i = 0; i < 9; i ++){
         for(j = 0; j < 9; j++){
+            //counting occurence of a number and storing in count array
             count[a[j][i]]++;
         }
     
@@ -55,6 +58,7 @@ int rowCheck(int a[10][10])
     
     for(i = 0; i < 9; i ++){
         for(j = 0; j < 9; j++){
+            //counting occurence of a number and storing in count array
             count[a[i][j]]++;
         }
     
