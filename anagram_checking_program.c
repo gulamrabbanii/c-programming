@@ -9,7 +9,9 @@ int isAnagram(char s1[], char s2[]){
     int count[NO_OF_CHARS] = {0};
     
     for(i = 0; s1[i] && s2[i]; i++){
+        //counting 1st occurence of character
         count[s1[i]]++;
+        //subtracting 2nd occurence of same character
         count[s2[i]]--;
     }
     if(s1[i] || s2[i])
