@@ -5,4 +5,5 @@ Following are programs:
 1. sudoku verifying program
 2. anagram checking program
 3. decimal to binary conversion using recursion
-4. printing first n-number of bits of binary
+4. generating all the strings of n bits.
+5. generating all the strings of length n drawn from 0... k – 1.
