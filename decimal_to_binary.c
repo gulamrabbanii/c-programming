@@ -22,6 +22,21 @@ void decToBinary(int num)
 }
 */
 
+//method-03
+/*
+int binary(int num)  
+{  
+    int rem, bin = 0, place = 1;  
+    while(num)  
+    {  
+        rem   = num % 2;  
+        num   = num / 2;  
+        bin   = bin + (rem * place);  
+        place = place * 10;  
+    }  
+    return(bin);  
+}
+*/
 int main()
 {
     int dec, bin;
@@ -31,7 +46,11 @@ int main()
     bin = convert(dec);
     printf("The binary equivalent of %d is %d.\n", dec, bin);
     
-    //uncomment to test method-02
-    //decToBinary(dec);
+    // uncomment to test method-02
+    // printf("The binary equivalent of %d is: ", dec);
+    // decToBinary(dec);
+    
+    // uncomment to test mehthod-03
+    // printf("The binary equivalent of %d is %d.\n", dec, binary(dec));
     return 0;
 }
