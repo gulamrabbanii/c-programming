@@ -6,9 +6,8 @@ int convert(int dec){
     if (dec == 0)
     return 0;
     
-    else{
-        return ((dec % 2) + 10 * convert(dec / 2));
-    }
+    else
+    return ((dec % 2) + 10 * convert(dec / 2));
 }
 
 //method-02
