@@ -1,5 +1,6 @@
-#include <stdio.h> 
 //function to convert decimal number to binary
+#include <stdio.h> 
+
 //method-01
 int convert(int dec){
     if (dec == 0)
