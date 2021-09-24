@@ -11,3 +11,4 @@ Following are programs:
 7. calculating n-factorial using memoization
 8. checking string is panagram or not
 9. finding largest 3 digit number within a given number string
+10. Check if the Given Number is Power of K
