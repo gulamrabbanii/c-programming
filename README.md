@@ -10,3 +10,4 @@ Following are programs:
 6. finding nth fibonacci using memoization
 7. calculating n-factorial using memoization
 8. checking string is panagram or not
+9. finding largest 3 digit number within a given number string
